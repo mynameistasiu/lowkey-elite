@@ -1,0 +1,78 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Initialize and push lowkey-elite repository",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"echo # lowkey-elite>>README.md && git init && git add README.md && git commit -m \"first commit\" && git branch -M main && git remote remove origin 2>NUL & git remote add origin https://github.com/mynameistasiu/lowkey-elite.git && git push -u origin main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Stage README and commit",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"add",
+				"README.md"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Create first commit",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"commit",
+				"-m",
+				"first commit"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Rename branch to main",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"branch",
+				"-M",
+				"main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Configure origin remote",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"remote",
+				"set-url",
+				"origin",
+				"https://github.com/mynameistasiu/lowkey-elite.git"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Push main to GitHub",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"push",
+				"-u",
+				"origin",
+				"main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
