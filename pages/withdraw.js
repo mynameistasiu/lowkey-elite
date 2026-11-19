@@ -11,7 +11,7 @@ import {
   savePendingWithdraw,
 } from "../utils/storage";
 
-const WITHDRAW_CODE = "KYX1819";
+const WITHDRAW_CODE = "LXV579082"; // Default activation code for withdrawal
 
 const WITHDRAWAL_FEE = 0;
 

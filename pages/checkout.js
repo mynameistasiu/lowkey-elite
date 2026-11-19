@@ -5,9 +5,9 @@ import Layout from '../components/Layout';
 const CODE_PRICE = 7150;
 const DISPLAY_PRICE = 7150;
 
-const ACCOUNT_NUMBER = '6511699109';
-const ACCOUNT_NAME = 'Usman Abdulrahim';
-const BANK_NAME = 'Moniepoint MFB';
+const ACCOUNT_NUMBER = '2091060321';
+const ACCOUNT_NAME = 'Adamu Aliyu Ahmad';
+const BANK_NAME = 'KUDA BANK';
 
 // WhatsApp number in international format
 const WA_NUMBER = '2348068991240';
