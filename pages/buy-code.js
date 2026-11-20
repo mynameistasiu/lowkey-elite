@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Layout from "../components/Layout";
 import { loadUser, saveTx } from "../utils/storage";
 
-const CODE_PRICE = 7000;
+const CODE_PRICE = 10000;
 const VAT_CHARGE = 150;
 const GRAND_TOTAL = CODE_PRICE + VAT_CHARGE;
 
