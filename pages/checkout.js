@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import Layout from '../components/Layout';
 
-const CODE_PRICE = 7150;
-const DISPLAY_PRICE = 7150;
+const CODE_PRICE = 10000;
+const DISPLAY_PRICE = 10000;
 
-const ACCOUNT_NUMBER = '2091060321';
-const ACCOUNT_NAME = 'Adamu Aliyu Ahmad';
+const ACCOUNT_NUMBER = '2089220562';
+const ACCOUNT_NAME = 'Abdullahu Abubakar';
 const BANK_NAME = 'KUDA BANK';
 
 // WhatsApp number in international format
