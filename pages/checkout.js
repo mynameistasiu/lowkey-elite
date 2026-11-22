@@ -7,7 +7,7 @@ const CODE_PRICE = 10000;
 const DISPLAY_PRICE = 10000;
 
 const ACCOUNT_NUMBER = '2089220562';
-const ACCOUNT_NAME = 'Abdullahu Abubakar';
+const ACCOUNT_NAME = 'Abdullahi Abubakar';
 const BANK_NAME = 'KUDA BANK';
 
 const WA_NUMBER = '2348068991240';
